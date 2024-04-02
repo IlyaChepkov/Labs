@@ -1,0 +1,15 @@
+C:\Users\Ilya\Documents\GitHub\Labs\Labs\Labs\obj\Debug\net6.0\Labs.csproj.AssemblyReference.cache
+C:\Users\Ilya\Documents\GitHub\Labs\Labs\Labs\obj\Debug\net6.0\Labs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ilya\Documents\GitHub\Labs\Labs\Labs\obj\Debug\net6.0\Labs.AssemblyInfoInputs.cache
+C:\Users\Ilya\Documents\GitHub\Labs\Labs\Labs\obj\Debug\net6.0\Labs.AssemblyInfo.cs
+C:\Users\Ilya\Documents\GitHub\Labs\Labs\Labs\obj\Debug\net6.0\Labs.csproj.CoreCompileInputs.cache
+C:\Users\Ilya\Documents\GitHub\Labs\Labs\Labs\bin\Debug\net6.0\Labs.exe
+C:\Users\Ilya\Documents\GitHub\Labs\Labs\Labs\bin\Debug\net6.0\Labs.deps.json
+C:\Users\Ilya\Documents\GitHub\Labs\Labs\Labs\bin\Debug\net6.0\Labs.runtimeconfig.json
+C:\Users\Ilya\Documents\GitHub\Labs\Labs\Labs\bin\Debug\net6.0\Labs.dll
+C:\Users\Ilya\Documents\GitHub\Labs\Labs\Labs\bin\Debug\net6.0\Labs.pdb
+C:\Users\Ilya\Documents\GitHub\Labs\Labs\Labs\obj\Debug\net6.0\Labs.dll
+C:\Users\Ilya\Documents\GitHub\Labs\Labs\Labs\obj\Debug\net6.0\refint\Labs.dll
+C:\Users\Ilya\Documents\GitHub\Labs\Labs\Labs\obj\Debug\net6.0\Labs.pdb
+C:\Users\Ilya\Documents\GitHub\Labs\Labs\Labs\obj\Debug\net6.0\Labs.genruntimeconfig.cache
+C:\Users\Ilya\Documents\GitHub\Labs\Labs\Labs\obj\Debug\net6.0\ref\Labs.dll
