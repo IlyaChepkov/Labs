@@ -17,30 +17,34 @@ public class Program
             {
                 int value = int.Parse(Console.ReadLine());
                 if (value == 0) break;
-                if (value < 0) continue;
+                
                 stack.Push(value);
             }
             while (stack.Lenght > 0)
             {
-                Console.WriteLine(stack.Pop());
+                int value = stack.Pop();
+                if (value < 0) continue;
+                Console.WriteLine(value);
             }
         }
+        Console.ReadLine();
     }
 
     public static void UserMode()
     {
         IlyaStack<int> stack = new IlyaStack<int>();
+        Console.WriteLine("Введите поледовательность чисел (конец окончания последовательности 0)");
         while (true)
         {
-            Console.WriteLine("Введите число");
             int value = int.Parse(Console.ReadLine());
             if (value == 0) break;
-            if (value < 0) continue;
             stack.Push(value);
         }
         while (stack.Lenght > 0)
         {
-            Console.WriteLine(stack.Pop());
+            int value = stack.Pop();
+            if (value < 0) continue;
+            Console.WriteLine(value);
         }
     }
 }
