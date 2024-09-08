@@ -12,7 +12,7 @@ int main(int argc, char* argv[])
 	float y;
 	if (argc > 1)
 	{
-		if (argv[1] != "false")
+		if (strcmp(argv[1], "false") != 0)
 		{
 			cout << "Введите последовательность координат. признак окончания последовательности - x = 0, y = 0\n";
 		}
