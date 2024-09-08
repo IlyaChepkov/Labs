@@ -23,7 +23,7 @@ int main(int argc, char* argv[])
 	}
 	cin >> x;
 	cin >> y;
-	while (x != 0 && y != 0)
+	while ((x != 0) || (y != 0))
 	{
 		if (x < 0 || y < 0)
 		{
