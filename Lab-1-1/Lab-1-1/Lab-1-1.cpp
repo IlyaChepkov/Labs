@@ -8,34 +8,51 @@ using namespace std;
 int main(int argc, char* argv[])
 {
 	setlocale(LC_ALL, "");
+	bool isHuman = false;
 	float x;
 	float y;
 	if (argc > 1)
 	{
 		if (strcmp(argv[1], "false") != 0)
 		{
-			cout << "Введите последовательность координат. признак окончания последовательности - x = 0, y = 0\n";
+			cout << "Введите последовательность координат. признак окончания последовательности - x = 0, y = 0\nВведите координаты";
+			isHuman = true;
 		}
 	}
 	else
 	{
-		cout << "Введите последовательность координат. признак окончания последовательности - x = 0, y = 0\n";
+		cout << "Введите последовательность координат. признак окончания последовательности - x = 0, y = 0\nВведите координаты\n";
+		isHuman = true;
 	}
 	cin >> x;
 	cin >> y;
 	while ((x != 0) || (y != 0))
 	{
-		if (x < 0 || y < 0)
+		if (y <= (- 4.0 / 3) * x + 4 && !(x < 0 || y < 0))
 		{
-			cout << "NO\n";
-		}
-		else if (y <= (- 4.0 / 3) * x + 4)
-		{
-			cout << "YES\n";
+			if (isHuman)
+			{
+				cout << "YY      YY    EEEEEEE     SSSSSS\n YY    YY     EE         S\n  YY  YY      EEEEEEE      SSSSS\n    YY        EE               S\n    YY        EE               S\n    YY        EEEEEEE     SSSSSS\n";
+			}
+			else
+			{
+				cout << "YES\n";
+			}
 		}
 		else
 		{
-			cout << "NO\n";
+			if (isHuman)
+			{
+				cout << "N      N       OOO\nNN     N     OO   OO\nN N    N    O       O\nN  N   N    O       O\nN   N  N     OO   OO\nN    N N       OOO\n";
+			}
+			else
+			{
+				cout << "NO\n";
+			}
+		}
+		if (isHuman)
+		{
+			cout << "Введите координаты\n";
 		}
 		cin >> x;
 		cin >> y;
