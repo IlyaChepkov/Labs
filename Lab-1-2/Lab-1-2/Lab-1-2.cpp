@@ -22,7 +22,7 @@ int main(int argc, char* argv[])
     // объявление переменных
 
     int n;
-    float avd;
+    float avd = 0;
     int degreeCount = 0;
     int odd5Count = 0;
     int prevExcCount = 0;
@@ -41,7 +41,6 @@ int main(int argc, char* argv[])
 
     min = current;
     max = current;
-    avd = current;
 
     for (int i = 0; i < n; i++)
     {
@@ -62,12 +61,13 @@ int main(int argc, char* argv[])
             }
             if (marker)
             {
-                cout << current;
+                
                 if (isHuman)
                 {
-                    cout << "\nЧисло простое\n";
+                    cout << "Число простое\n";
                 }
-                
+                cout << current;
+                cout << "\n";
             }
             else if (isHuman)
             {
@@ -83,7 +83,6 @@ int main(int argc, char* argv[])
 
         if (log - (int)log == 0)
         {
-            cout << current;
             degreeCount++;
         }
 
@@ -148,9 +147,13 @@ int main(int argc, char* argv[])
     else
     {
         cout << avd / n;
+        cout << "\n";
         cout << max - min;
+        cout << "\n";
         cout << odd5Count;
+        cout << "\n";
         cout << degreeCount;
+        cout << "\n";
         cout << prevExcCount;
     }
     
