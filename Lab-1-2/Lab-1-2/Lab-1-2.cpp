@@ -48,10 +48,17 @@ int main(int argc, char* argv[])
 
         // проверка на простое число
 
-        if (current % 2 != 0 || current == 2 && current != 1)
+        if (current == 1)
+        {
+            if (isHuman)
+            {
+                cout << "число 1\n";
+            }
+        }
+        else if (current % 2 != 0 || current == 2)
         {
             bool marker = true;
-            for (int i = 3; i < sqrt(current); i += 2)
+            for (int i = 3; i <= sqrt(current); i += 2)
             {
                 if (current % i == 0)
                 {
@@ -61,13 +68,12 @@ int main(int argc, char* argv[])
             }
             if (marker)
             {
-                
+                cout << current;
+                cout << "\n";
                 if (isHuman)
                 {
                     cout << "Число простое\n";
                 }
-                cout << current;
-                cout << "\n";
             }
             else if (isHuman)
             {
@@ -76,7 +82,7 @@ int main(int argc, char* argv[])
         }
         else if (isHuman)
         {
-            cout << "Число сложное\n";
+             cout << "Число сложное\n";
         }
 
         // проверка на степень двойки
